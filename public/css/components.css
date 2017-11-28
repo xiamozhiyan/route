@@ -1,0 +1,80 @@
+.nav{
+    height:44px;
+    display: flex;
+    justify-content: space-around;
+    background: #ddd;
+}
+.nav>li{
+    padding: 0 30px;
+    height:100%;
+    line-height: 44px;
+}
+.router-link-active{
+    background: #fff;
+}
+.home-enter{
+    transform: translate(100%,0);
+}
+.home-leave-to{
+    transform: translate(-100%,0);
+}
+.home-enter-active,.home-leave-active{
+    transition:all 1s ease;
+}
+.home{
+    position: absolute;
+    left: 0;
+    top:0;
+    width:100%;
+}
+.list-enter{
+    opacity: 0;
+}
+.list-leave-to{
+    opacity: 0;
+}
+.list-enter-active,.list-leave-active{
+    transition:all 1s ease;
+}
+.left{
+    width:20%;
+    height:100%;
+    padding:20px 50px;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+    float: left;
+}
+.right{
+    width:80%;
+    height:100%;
+    float: left;
+    overflow: scroll;
+}
+.login{
+    width:50%;
+    margin: 50px auto;
+}
+.mui-content{
+    height:400px;
+}
+.homeCon{
+    width:50%;
+    margin: 0 auto;
+}
+.homeCon>img{
+    width:100%;
+}
+.Con{
+    width:800px;
+    margin: 0 auto;
+}
+.Left>ul>li{
+    line-height: 40px;
+}
+.Left>ul>h4{
+    line-height: 50px;
+}
+.Login{
+    height:100%;
+    background: url("../img/reg6.png") no-repeat center/cover;;
+}
